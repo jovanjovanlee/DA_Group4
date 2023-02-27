@@ -1,6 +1,6 @@
 import requests
 
-url = "http://172.18.58.80/headers.php"
+url = "http://172.18.58.80/snow/"
 r=requests.get(url)
 print(r.text)
 
@@ -22,6 +22,6 @@ print("**********")
 headers = {
     'User-Agent' : 'Mobile'
 }
-url2 = 'http://172.18.58.80/headers.php'
+url2 = 'http://172.18.58.80/snow/'
 rh = requests.get(url2, headers=headers)
 print(rh.text)
